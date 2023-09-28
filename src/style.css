@@ -384,6 +384,13 @@ button:hover {
 }
 
 @media screen and (max-width: 500px) {
+  .container #multistep-form {
+    padding: 25px 15px;
+    padding-top: 15px;
+  }
+  #multistep-form .progress {
+    padding-inline: 0;
+  }
   #multistep-form .progress p {
     width: 30px;
     height: 30px;
