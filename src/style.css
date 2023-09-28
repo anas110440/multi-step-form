@@ -369,6 +369,7 @@ button:hover {
     font-size: 15px;
     flex-direction: row;
     margin-bottom: 13px;
+    align-items: center;
   }
   .success {
     padding: 20px 0 0 0;
