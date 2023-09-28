@@ -342,7 +342,7 @@ button:hover {
     padding: 10px;
   }
   .custom-check-button-container {
-    width: 46%;
+    width: 100%;
     margin-bottom: 20px;
     font-size: 15px;
     border-radius: 8px;
@@ -369,5 +369,27 @@ button:hover {
     font-size: 15px;
     flex-direction: row;
     margin-bottom: 13px;
+  }
+  .success {
+    padding: 20px 0 0 0;
+    gap: 20px;
+  }
+  .success h2 {
+    padding-top: 0;
+  }
+  .success p {
+    font-size: 15px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #multistep-form .progress p {
+    width: 30px;
+    height: 30px;
+  }
+  #multistep-form .progress span {
+    width: 16%;
+    height: 5px;
   }
 }
