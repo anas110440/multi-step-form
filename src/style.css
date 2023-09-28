@@ -242,12 +242,15 @@ button:hover {
   padding: 20px;
   background-color: #f2f3f5;
   overflow: hidden;
+  cursor: pointer;
+}
+.review .form-2 p:hover {
+  box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.302);
 }
 .review .form-2 p span {
   font-size: 15px;
   text-wrap: wrap;
   line-height: 1.5;
-  font-weight: 00;
 }
 
 .success {
@@ -258,4 +261,113 @@ button:hover {
   text-align: center;
   padding: 100px;
   position: relative;
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    padding: 40px 20px;
+  }
+  .container #multistep-form {
+    width: 600px;
+    padding-bottom: 25px;
+  }
+  #multistep-form .progress p {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    gap: 10px;
+  }
+  .container #multistep-form {
+    width: 100%;
+    padding: 25px;
+    padding-top: 15px;
+    margin-top: 10px;
+  }
+  .container .title {
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+  }
+  .container .desc {
+    font-size: 15px;
+    margin: 0;
+  }
+  #multistep-form .progress p {
+    width: 38px;
+    height: 38px;
+  }
+  #multistep-form .progress span {
+    width: 16%;
+    height: 6px;
+  }
+  .step h2 {
+    padding-top: 30px;
+    font-size: 20px;
+  }
+  .step p {
+    font-size: 16px;
+    margin-top: 0;
+  }
+  .personal-info .form-1 {
+    padding-bottom: 10px;
+  }
+  .personal-info .form-1 .input-group {
+    width: 100%;
+  }
+  .personal-info .form-1 .input-group label {
+    font-size: 15px;
+  }
+
+  .personal-info .form-1 .input-group input {
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 12px;
+  }
+  .personal-info #nextBtn {
+    margin-top: 20px;
+  }
+
+  .form-2 {
+    padding-bottom: 20px;
+  }
+
+  .custom-radio-button-container {
+    width: 100%;
+  }
+  .custom-radio-button {
+    padding: 10px;
+  }
+  .custom-check-button-container {
+    width: 46%;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border-radius: 8px;
+  }
+  .custom-check-button-container input {
+    width: 15px;
+    height: 15px;
+    border-radius: 4px;
+  }
+  .buttons-group {
+    padding-top: 20px;
+  }
+  .buttons-group #prevBtn,
+  #nextBtn {
+    padding: 11px 20px;
+    font-size: 17px;
+    border-radius: 8px;
+  }
+
+  .review .form-2 p {
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 15px;
+    flex-direction: row;
+    margin-bottom: 13px;
+  }
 }
